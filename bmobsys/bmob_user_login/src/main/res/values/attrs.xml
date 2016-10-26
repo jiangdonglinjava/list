@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="biao_ti_lan"> 
+		<attr name="user_ico" format="reference"/> 
+		<attr name="user_name" format="string"/>
+		<attr name="user_email" format="string"/>
+		<attr name="user_id" format="string"/> 
+	</declare-styleable> 
+</resources>

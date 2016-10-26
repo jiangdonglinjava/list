@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent"
+	android:id="@+id/biaotilan"
+	android:background="#E8CDCB">
+
+	<de.hdodenhof.circleimageview.CircleImageView
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		android:layout_width="70dp"
+		android:layout_height="70dp"
+		android:src="@drawable/image_1"
+		android:layout_centerHorizontal="true"
+		app:civ_border_width="2dp"
+		app:civ_border_color="#4a9bec"
+		android:id="@+id/biaotilan_user_ico"/>
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="wrap_content"
+		android:orientation="vertical"
+		android:layout_toRightOf="@id/biaotilan_user_ico">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="match_parent"
+			android:text="小型文本"
+			android:id="@+id/biaotilan_user_name"
+			android:textSize="10sp"
+			android:gravity="left|center_vertical"
+			android:layout_weight="1"
+			android:padding="3dp"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="match_parent"
+			android:text="小型文本"
+			android:id="@+id/biaotilan_user_email"
+			android:textSize="10sp"
+			android:gravity="left|center_vertical"
+			android:layout_weight="1"
+			android:padding="3dp"/>
+
+		<Button
+			android:layout_height="30dp"
+			android:layout_width="match_parent"
+			android:text="退出登陆"
+			android:textSize="8sp"
+			android:id="@+id/biaotilan_login_out"
+			android:layout_weight="1"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

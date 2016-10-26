@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/sliding_card_content_view"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:gravity="top|center"
+	android:padding="5dp">
+
+	<ImageView
+		android:id="@+id/user_imageview"
+		android:layout_width="fill_parent"
+		android:layout_height="300dp"
+		android:layout_margin="10dp"
+		android:background="#ffffff"
+		android:padding="5dp"
+		android:scaleType="fitXY"
+		android:contentDescription="@string/app_name"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:layout_margin="10dp"
+		android:layout_alignBottom="@id/user_imageview"
+		android:padding="5dp"
+		android:gravity="center"
+		android:id="@+id/slidingcarditemLinearLayout1">
+
+		<TextView
+			android:id="@+id/user_text"
+			android:layout_width="fill_parent"
+			android:layout_height="70dp"
+			android:background="#00D17671"
+			android:padding="5dp"
+			android:textSize="18sp"
+			android:layout_weight="1.0"
+			android:gravity="center"
+			android:textColor="#E24F46"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:id="@+id/slidingcarditemCheckBox1"/>
+
+	</LinearLayout>
+
+</RelativeLayout>
+

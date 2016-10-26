@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:card="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#F7E4BC"
+	android:gravity="top|center"
+	android:orientation="vertical">
+
+	<com.mxn.soul.slidingcard_core.ContainerView
+		android:id="@+id/contentview"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		card:card_item_height="330dp"
+		card:card_item_margin="10dp"
+		android:layout_weight="1.0"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:orientation="horizontal">
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:text="文本"
+			android:id="@+id/activitymainTextView1"
+			android:layout_weight="1.0"
+			android:gravity="center"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="下单"/>
+
+	</LinearLayout>
+
+	<HorizontalScrollView
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:layout_weight="1.0">
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:orientation="horizontal"
+			android:id="@+id/activitymainLinearLayout1"
+			android:padding="5dp">
+
+		</LinearLayout>
+
+	</HorizontalScrollView>
+
+</LinearLayout>
+
